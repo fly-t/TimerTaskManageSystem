@@ -38,7 +38,7 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
 {
     if (htim->Instance == USING_TIMERx.Instance)
     {
-        software_timer_update();
+        ttms_update();
     }
 }
 ```
